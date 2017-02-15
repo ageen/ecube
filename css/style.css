@@ -486,6 +486,7 @@ section.spacer.bg2 {
 
 section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	background-color: #ff3366;
 	width:100%;
 	height:auto;
 	margin:0;	
