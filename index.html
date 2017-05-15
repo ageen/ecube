@@ -30,10 +30,10 @@ body{
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		var random_bg=Math.floor(Math.random()*22);
+		var random_bg=Math.floor(Math.random()*64+1);
 		var bg='url("img/background/bkimg ('+random_bg+').jpg")';
 		$("body").css("background-image",bg);
-		$('[data-toggle="popover"]').popover({placement:'top', trigger:'hover'});   
+		$('[data-toggle="popover"]').popover({placement:'top', trigger:'hover'});
 	});
 </script>
 </body>
